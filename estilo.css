@@ -1,0 +1,71 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    background: url("/fundo3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    background-size: cover;
+    
+    
+}
+#treno {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  animation: treno 0.1s ease infinite;
+}
+
+#treno img {
+    width: 140;
+       
+} */
+
+ 
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("fundo5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    background-size: cover;
+}
+
+#move{
+    width: 100vw;
+    height: 100vw;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+  }
+  #treno{
+    position: absolute;
+    top: 3px;
+    text-align: center;
+    animation: treno 0.3s ease infinite;
+  
+  }
+
+  img{
+    height: 180px;
+    width: 360px;
+    background: none;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    position: absolute;
+    padding: 15px;
+  }
+
+  #snow-target {
+    /**
+     * absolute-positioned example, snow is appended to this element.
+     * overflow: hidden is recommended for best effect.
+     */
+    position: absolute;
+    overflow: hidden;
+    _zoom: 1; /* IE 6 display fix */
+   }
